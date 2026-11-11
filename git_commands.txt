@@ -1,0 +1,71 @@
+
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. git --version
+Checks the installed Git version.
+
+2. git config --global user.name "Nandini Molgara"
+Configures the Git commit username.
+
+3. git config --global user.email "2024eb01093@online.bits-pilani.ac.in"
+Configures the Git commit email.
+
+4. git init
+Initializes a local Git repository.
+
+5. git status
+Displays the current repository status.
+
+6. git add .
+Stages all project files for committing.
+
+7. git add index.html
+Stages changes made to index.html.
+
+8. git add about.html
+Stages changes made to about.html.
+
+9. git commit -m "Initial commit: Add HTML pages"
+Creates the initial commit.
+
+10. git log --oneline
+Displays the commit history in a compact format.
+
+11. git branch feature
+Creates a new branch named feature.
+
+12. git branch
+Displays all available branches.
+
+13. git switch feature
+Switches to the feature branch.
+
+14. git switch main
+Switches back to the main branch.
+
+15. git merge feature
+Merges feature branch changes into main.
+
+16. git log --oneline --graph --all
+Displays commit history with branch information.
+
+17. git check-ignore -v test.log
+Checks which .gitignore rule ignores test.log.
+
+18. git add .gitignore
+Stages the .gitignore file.
+
+19. git reset --soft HEAD~1
+Undoes the latest commit while preserving staged changes.
+
+20. git remote add origin https://github.com/2024eb01093-star/SDP-Assignment.git
+Connects the local repository to GitHub.
+
+21. git remote -v
+Displays configured remote repository URLs.
+
+22. git push -u origin main
+Pushes the main branch to GitHub.
+
+23. git push -u origin feature
+Pushes the feature branch to GitHub.
